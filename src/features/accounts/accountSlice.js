@@ -63,10 +63,6 @@ export function deposit(amount, currency) {
   };
 }
 
-console.log(accountSlice);
-
-console.log(requestLoan(1000, "Buy a car"));
-
 export default accountSlice.reducer;
 
 /* export default function accountReducer(state = initialState, action) {
